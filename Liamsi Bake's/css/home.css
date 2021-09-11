@@ -1,0 +1,625 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_container{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 750px;
+    background-image: url('./images/head.jpg');
+    background-size: cover;
+
+    
+}
+
+.header{
+    width: 100%;
+    background-color:rgb(0,0,0,0.5);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+       
+
+}
+.heading{
+    padding-top:10px ;
+    width: 25%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+
+}
+
+.nav_butt{
+    width: 25%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.item{
+    width: 45%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 28px;
+    font-weight: bold;
+    color:white;
+}
+
+.item:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+
+.slide-container{
+    position: relative;
+    width:100%;
+    /* height: 490px; */
+   
+     
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.arrow{
+    cursor: pointer;
+    position:absolute;
+    top: 45%;
+    color: black ;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 10px 15px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.next{
+    right: 10px;
+}
+
+.prev{
+    left: 10px;
+}
+
+.slide{
+    display: none;
+}
+
+
+
+.overlay{
+    width: 40%;
+    height: 350px;
+    margin-top: 140px;
+    background-color: rgb(0,0,0,0.3);
+    color: white;
+}
+.heading_overlay{
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.overlay_text{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.overlay_butt{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color: red;
+    border: none;
+}
+
+.overlay_butt:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+    width: 155px;
+    height: 63px;
+
+}
+.about_container{
+    width: 100%;
+    height: 800px;
+    /* background-color: red; */
+    
+    
+    
+   
+}
+
+.about{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 600px;
+    font-family: cursive;
+}
+#text{
+    font-size:20px ;
+    padding-top: 10px;
+    padding-left: 470px;
+}
+
+.about_us{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_blk{
+    margin-top: 20px;
+    width: 45%;
+    height: 80%;
+    background-image: url(./images/bake-items.jpg);
+    background-size: contain;
+}
+.about_text{
+    margin-top: 20px;
+    width: 45%;
+    height: 90%;
+    font-size: 20px;
+    /* background-color:gold; */
+   font-family: cursive;
+}
+
+.about_container2{
+    width: 100%;
+    height: 800px;
+    /* background-color: red;
+     */
+   
+}
+
+.about2{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 600px;
+    font-family: cursive;
+}
+#text2{
+    font-size:20px ;
+    padding-top: 10px;
+    padding-left: 470px;
+}
+
+.about_us2{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_blk2{
+    margin-top: 20px;
+    width: 45%;
+    height: 80%;
+    background-image: url(./images/bake-items.2jpg.jpg);
+    background-size: cover;
+}
+.about_text2{
+    margin-top: 20px;
+    width: 45%;
+    height: 90%;
+    font-size: 20px;
+    /* background-color:gold; */
+   font-family: cursive;
+}
+
+.special_container{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+   justify-content: space-evenly;
+   padding-top: 20px;
+    
+}
+
+.special1{
+    width: 45%;
+    height: 90%;
+    background-color: brown;
+    margin-top: 20px;
+    background-image: url(./images/muffin2.jpg);
+    background-size: cover;
+}
+
+.special1:hover{
+    width: 48%;
+    height: 92%;
+    transition: 0.5s;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 0.2cm;
+}
+
+.special2:hover{
+    width: 48%;
+    height: 92%;
+    transition: 0.5s;
+    border-radius: 0.2cm;
+    box-shadow: 5px 10px 8px #888888;
+}
+.special2{
+    width: 45%;
+    height: 90%;
+    background-color: brown;
+    margin-top: 20px;
+    background-image: url(./images/applepie.jpg);
+    background-size: cover;
+}
+
+#text3{
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.0);
+}
+
+
+
+.info{
+    padding-top: 45%;
+    padding-left: 15%;
+}
+#text4{
+    font-size: 40px;
+    font-weight: bold;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.special_butt{
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.special_butt:hover{
+    background-color: white;
+    color:red;
+   
+    
+    
+}
+
+.community_container{
+    width: 100%;
+    height: 350px;
+    color: white;
+    background-image: url(./images/comm.jpg);
+    transition: 2.5s;
+    
+}
+
+.community_container:hover{
+    background-image: url(./images/pexels-any-lane-5945561.jpg);
+    transition: 2s;
+}
+#email{
+    margin-left: 580px;
+    width: 430px;
+    height: 40px;
+    border-radius: 2cm;
+}
+
+.b1{
+    margin-left: 580px;
+    border: none;
+    height: 40px;
+    border-radius: 1cm;
+    background-color: red;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.b1:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+
+/* #b2{
+    margin-left: 580px;
+    border: none;
+
+} */
+.categories_contaianer{
+    
+    width: 100%;
+    height: 600px;
+    
+   
+}
+.cat{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+
+}
+
+.categories{
+    
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+
+
+.cat1{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/bread.jpg);
+    background-size: cover;
+    border-radius:50% ;
+    
+}
+
+
+
+.cat2{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/muffin.jpg);
+    background-size: cover;
+    border-radius:50% ;
+    
+}
+.cat3{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/cookies.jpg);
+    background-size: cover;
+    border-radius:50% ;
+    
+}
+
+.categories1{
+    
+    width: 95%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.cat4{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/cake.jpg);
+    background-size: cover;
+    border-radius:50% ;
+}
+
+.cat5{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/pie.jpg);
+    background-size: cover;
+    border-radius:50% ;
+}
+
+.cat6{
+    width: 30%;
+    height: 100%;
+    background-image: url(./images/pizza.jpg);
+    background-size: cover;
+    border-radius:50% ;
+}
+
+#text5{
+    font-size: 40px;
+    padding-top: 170px;
+    padding-left: 80px;
+    font-weight: bold;
+    color: white;
+}
+.cat1:hover,.cat2:hover,.cat3:hover,.cat4:hover,.cat5:hover,.cat6:hover{
+    width: 32%;
+    height: 102%;
+    transition: 0.7s;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 0.2cm;
+}
+
+.team_container{
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.team{
+    margin-left: 200px;
+    width: 75%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.team1{
+    width: 25%;
+    height: 100%;
+    box-shadow: 5px 10px 8px #ffd6d6;
+    border-radius: 100%;
+    background-image: url(./images/chef.jpg);
+    background-size: cover;
+    
+}
+.team1:hover,.team2:hover,.team3:hover{
+    width: 27%;
+    height: 103%;
+    border-radius: 1cm;
+    transition: 1s;
+    box-shadow: 5px 10px 8px #ffd6d6;
+
+}
+
+.team2{
+    width: 25%;
+    height: 100%;
+    box-shadow: 5px 10px 8px #ffd6d6;
+    border-radius: 100%;
+    background-image: url(./images/chef2.jpg);
+    background-size: cover;
+}
+.team3{
+    width: 25%;
+    height: 100%;
+    box-shadow: 5px 10px 8px #ffd6d6;
+    border-radius: 100%;
+    background-image: url(./images/chef3.jpg);
+    background-size: cover;
+}
+
+.video_project{
+    width: 100%;
+    height: 350px;
+    background-color:#ffd6d6;
+}
+.videos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 25px;
+    
+}
+
+.info_container{
+    width: 100%;
+    height: 600px;
+   
+}
+.info_map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.map{
+    width: 50%;
+    height: 100%;
+    
+}
+.info1{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/pexels-jess-bailey-designs-913135.jpg);
+    background-size: cover;
+    
+}
+form{
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+button{
+    width: 220px;
+    height: 30px;
+}
+.b3{
+    width: 220px;
+    height: 30px;
+    border-radius: 1cm;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+
+}
+
+.b3:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+
+#text6{
+    font-size: 40px;
+    padding-top:30px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: black;
+}
+.footer_container{
+    width: 100%;
+    height: 190px;
+ 
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.add_footer,.social_footer,.info_footer{
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    
+}
+
+#text7{
+    font-size: 25px;
+   padding-top: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+#text8{
+    font-size: 15px;
+    
+    padding-left: 30px;
+    color: white;
+}
+
